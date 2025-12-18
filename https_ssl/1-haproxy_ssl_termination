@@ -24,5 +24,5 @@ frontend https_front
 backend web_back
     balance roundrobin
     option httpchk GET /
-    server web-01 54.211.70.81:80 check
-    server web-02 44.201.147.220:80 check
+    server web-01 34.207.166.124 check
+    server web-02 3.88.183.173 check
